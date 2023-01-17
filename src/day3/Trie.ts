@@ -1,8 +1,3 @@
-// type TrieNode = {
-//     children?: { [key: string]: TrieNode };
-//     isEndOfWord?: boolean;
-// };
-
 class TrieNode {
     public children: { [key: string]: TrieNode };
     isEndOfWord?: boolean;
